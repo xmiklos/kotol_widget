@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kotol</string>
+    <string name="appwidget_text">Kotol:</string>
+    <string name="add_widget">Add widget</string>
+    <string name="deg_celsius">°C</string>
+    <string name="dots">...</string>
+    <string name="sync">Sync</string>
+</resources>
