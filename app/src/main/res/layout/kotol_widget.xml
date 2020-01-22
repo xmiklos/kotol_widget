@@ -26,4 +26,14 @@
         android:textColor="@android:color/primary_text_dark"
         android:textSize="8sp"
         tools:text="..." />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/temp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:text="@string/alarm_off" />
+
 </RelativeLayout>

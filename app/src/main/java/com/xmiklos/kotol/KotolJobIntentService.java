@@ -34,10 +34,9 @@ public class KotolJobIntentService extends JobIntentService {
             views.setTextViewText(R.id.update, "");
         }
 
-        /*Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALL);
-        Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
-        r.play();*/
-
+        if (KotolWidget.alarm_on && t.getTemp() < 44) {
+            KotolWidget.mMediaPlayer.start();
+        }
 
         AppWidgetManager manager = AppWidgetManager.getInstance(this);
         manager.updateAppWidget(new ComponentName(this, KotolWidget.class), views);

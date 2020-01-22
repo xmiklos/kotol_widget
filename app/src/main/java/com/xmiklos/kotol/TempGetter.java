@@ -1,5 +1,7 @@
 package com.xmiklos.kotol;
 
+import android.util.Log;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -29,6 +31,7 @@ public class TempGetter {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+            Log.i("IOException", e.getMessage());
         } catch (JSONException e) {
             e.printStackTrace();
         } finally {

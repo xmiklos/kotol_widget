@@ -3,7 +3,8 @@
     android:initialKeyguardLayout="@layout/kotol_widget"
     android:initialLayout="@layout/kotol_widget"
     android:minWidth="80dp"
-    android:minHeight="40dp"
+    android:minHeight="80dp"
     android:previewImage="@drawable/preview"
     android:updatePeriodMillis="18000000"
-    android:widgetCategory="home_screen"></appwidget-provider>
+    android:widgetCategory="home_screen"
+    android:resizeMode="vertical|horizontal"></appwidget-provider>

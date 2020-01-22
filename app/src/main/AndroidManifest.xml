@@ -19,6 +19,9 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
+                <action android:name="com.xmiklos.kotol.ALARM_BUTTON_CLICKED" />
+            </intent-filter>
+            <intent-filter>
                 <action android:name="AUTO_UPDATE" />
             </intent-filter>
 
